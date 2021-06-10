@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'photo',
     'accounts',
     'disqus',
-    'django.contrib.sites'
+    'django.contrib.sites',
 ]
 
 MIDDLEWARE = [
@@ -136,5 +136,3 @@ LOGIN_REDIRECT_URL = '/'
 
 DISQUS_WEBSITE_SHORTNAME = 'dmlgus9041'
 SITE_ID = 1
-
-
